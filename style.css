@@ -68,6 +68,7 @@ p {
   line-height: 1.8;
 }
 
+
 ::-webkit-scrollbar {
   background: var(--color-primary-light);
   width: 10px;
@@ -174,6 +175,10 @@ nav .container ul li a.active {
 nav.show-box-shadow {
   box-shadow: 0 0.6rem 1rem var(--color-primary-light);
   border: none;
+}
+
+a {
+  text-decoration: none !important;
 }
 /* .fab {
   color: var(--color-black);
